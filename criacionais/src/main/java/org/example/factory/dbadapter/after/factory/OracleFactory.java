@@ -1,7 +1,7 @@
-package org.example.factory.after.factory;
+package org.example.factory.dbadapter.after.factory;
 
 import org.example.factory.dbadapter.after.db.DB;
-import org.example.factory.after.db.OracleDB;
+import org.example.factory.dbadapter.after.db.OracleDB;
 
 public class OracleFactory implements DBFactory {
 

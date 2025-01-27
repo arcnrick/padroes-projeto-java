@@ -1,4 +1,4 @@
-package org.example.factory.after.db;
+package org.example.factory.dbadapter.after.db;
 
 public class PostgresDB implements org.example.factory.dbadapter.after.db.DB {
 
