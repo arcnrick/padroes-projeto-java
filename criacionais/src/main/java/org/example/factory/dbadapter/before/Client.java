@@ -11,7 +11,8 @@ public class Client {
         dbOracle.update("INSERT INTO users VALUES ('User', 25)");
 
         // para usar o Postgres, vamos precisar criar um novo objeto que também vai chamar no final, um objeto de
-        // banco com os métodos semelhantes
+        // banco que possa ter códigos semelhantes
+
         PostgresDB dbPostgres = new PostgresDB();
         dbPostgres.query("SELECT * FROM users");
         dbPostgres.update("INSERT INTO users VALUES ('User', 25)");
