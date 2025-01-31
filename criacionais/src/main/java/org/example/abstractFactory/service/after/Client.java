@@ -31,6 +31,9 @@ public class Client {
     }
 
     private static void conectaAPI(ApiAbstractFactory factory) {
+
+        // no get abaixo, já vai ser carregada a service da respectiva tecnologia, com base no parâmetro factory
+
         UserService userService = factory.getUserService();
         userService.save(5, "Jhon");
         userService.delete(5);
